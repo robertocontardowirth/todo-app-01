@@ -8,10 +8,10 @@ import { TodoList } from '../../ui/TodoList';
 import { TodoItem } from '../../ui/TodoItem';
 import { TodosError } from '../../ui/TodosError';
 import { TodosLoading } from '../../ui/TodosLoading';
-import { TodoForm } from '../../ui/TodoForm';
+// import { TodoForm } from '../../ui/TodoForm';
 import { EmptyTodos } from '../../EmptyTodos';
 import { CreateTodoButton } from '../../CreateTodoButton';
-import { Modal } from '../../Modal';
+// import { Modal } from '../../Modal';
 import { ChangeAlert } from '../../ChangeAlert';
 
 function HomePage()  {
@@ -30,10 +30,10 @@ function HomePage()  {
   
   const {
     // setOpenModal,
-    addTodo,
+    // addTodo,
     completeTodo,
     deleteTodo,
-    editTodo,
+    // editTodo,
     setSearchValue,
     sincronizeTodos,
   } = stateUpdaters;
